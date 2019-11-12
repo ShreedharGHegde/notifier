@@ -36,7 +36,7 @@ export class Form extends Component {
 
     formData.append("title", this.state.title);
     formData.append("message", this.state.message);
-
+    
     //HTML 'name' attribute should match with first argument of append
     formData.append("image", this.state.file);
     e.preventDefault();
